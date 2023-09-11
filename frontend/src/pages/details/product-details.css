@@ -1,7 +1,7 @@
 .details-page.app{
-  max-width: 1200px;
+  max-width: 900px;
   width: 70%;
-  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 3px #ccc;
 }
 .details-page .details{
   display: flex;
@@ -21,6 +21,7 @@
   max-height: 400px;
   display: block;
   object-fit: cover;
+  border-radius: 3px;
 }
 
 .details-page .details .box{
@@ -49,7 +50,7 @@
   cursor: pointer;
 }
 .details-page .box p{
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.5;
   margin: 15px 0;
 }

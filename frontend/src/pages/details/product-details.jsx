@@ -69,11 +69,11 @@ const ProductDetails = () => {
 
           <div className="box">
             <div className="row">
-              <h2>{data.productName}</h2>
-              <span>${data.price}</span>
+              <h2 style={{fontSize: "29px"}}>{data.productName}</h2>
+              <span style={{fontSize: "19px"}}>${data.price}</span>
             </div>
             {/* <Colors colors={item.colors} /> */}
-
+            <p style={{fontSize: "16px"}}>Lorem ipsum dolor sit amet consectetur.</p>
             <p>{data.description}</p>
 
             <DetailsThumb
@@ -106,7 +106,7 @@ const ProductDetails = () => {
               </IconButton>
             
             </div>) : (      <Button
-                  sx={{ textTransform: "capitalize", p: 1, lineHeight: 1.1 }}
+                  sx={{ marginTop: "33px", textTransform: "capitalize", p: 1, lineHeight: 1.1 }}
                   variant="contained"
                   color="primary"
                   onClick={() => {
